@@ -1,0 +1,280 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar .container, 
+.navbar ul.navbar-nav
+{ display: flex; align-items: center}
+.navbar ul.navbar-nav .nav-link{ 
+	font-family: 'PT Serif', serif;color: #fff;}
+.navbar ul.navbar-nav .nav-link:hover{ color: #fff; border-bottom: 2px solid #fff}
+#banner .carousel-control-prev{ position: absolute; left: -10%}
+#banner .carousel-control-next{ position: absolute; right: -10%}
+.box,.box .btn .box h1,.box img,.box .giatien{transition: all .5s}
+.box{box-shadow: 0 0 0px #ddd}
+.box:hover{background-image: url(/);color:#fff;background-repeat:no-repeat;background-size: cover;}
+.box:hover >.btn-light{background-color:#121212;color:#000;border-color:transparent}
+.box:hover >img{transform:scale(1.1)}
+.box:hover >h1,box:hover >.text-danger{color:#fff}
+.giatien{color:#f00}
+.hambu{width: 150px}
+.box:hover >.giatien{color: #fff}
+
+
+
+
+
+@media (max-width:992px){
+	
+	.navbar .container{ background:rgba(0, 0, 0, 0.796)}
+}
+
+
+.cover{
+	background-image:url(../IMAGES/banner-index.jpg);
+	position: relative;
+	
+	min-height: 700px;
+	overflow: hidden;
+	background-position: center right;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	
+}
+@media (max-width:992px) {
+	.cover {min-height: 100px ;
+		background-position: center right;
+	}
+}
+
+
+.welcome{
+	background-image:url(../IMAGES/welcome.png-1.jpg);
+	position: relative;
+	
+	min-height: 700px;
+	overflow: hidden;
+	background-position: center left;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	
+}
+@media (max-width:992px) {
+	.welcome {min-height: 100px ;}
+}
+.welcome h1 {
+	padding: 20px 0px;
+}
+	
+
+
+
+.p-top150px{padding-top: 150px ;}
+.p-top100px{padding-top: 100px ;}
+.p-top50px{	padding-top: 50px;}
+.p-top25px{	padding-top: 25px;}
+.p-top200px{padding-top: 200px;}
+.p-top300px{padding-top: 300px;}
+.p-leftright{padding: 0px 55px;}
+
+.font-size70px{font-size: 70px;}
+.font-size50px{font-size: 50px;}
+
+.text-right{text-align: right;}
+.pic-width50px{width: 70%;}
+.align-center{align-items: center;}
+
+
+
+	
+
+.threereason{
+	background-color: #121212;
+	background-image: url();
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px;
+}	
+
+.signature{
+	background-color: #121212;
+	background-image: url();
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px;
+}
+
+.img-pad{
+	position: relative;
+}
+
+.img-cap{
+	position: absolute;
+    width: 91%;
+    height:7%;
+    bottom: 130px ;
+    transition: all 0.8s;
+	
+}
+
+.img-cap2{
+	position: absolute;
+    
+    width: 91%;
+    height:7%;
+    bottom: 30px ;
+    transition: all 0.8s;
+}
+
+.pic{
+	background-color: #121212;
+	background-image: url(../IMAGES/d02169a7.png);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px;
+
+}
+
+
+.cover-drink{
+	background-image: url(../IMAGES/drink-banner.jpg);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 650px;
+}
+.wine-cocktail{
+	background-image: url(../IMAGES/threereason-bg.png);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 1000px;
+
+}
+.wine-banner1{
+	position: relative;
+}
+.wine-cap1{
+	position: absolute;
+	
+	bottom: 50px;
+	right:90px;
+}
+.wine-banner2{
+	position: relative;
+}
+.wine-cap2{
+	position: absolute;
+	
+	bottom: 50px;
+	right:90px;
+}
+.about-cover{
+	background-color: #121212;;
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 200px;
+}
+
+.about-us{
+	background-color: #121212;
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px;
+}
+.second-about{
+	background-color: #121212;
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 100px;
+}
+.about-cap{
+	background-color: #fff;
+	
+}
+
+.cover-bf{
+	background-image: url(../IMAGES/banner-bf.jpg);
+	position: relative;
+	
+	min-height: 700px;
+	overflow: hidden;
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	
+}
+@media (max-width:992px) {
+	.cover-bf {min-height: 100px ;}
+}
+.menu-bf{
+	background-color:#121212;
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px
+
+}
+.bf-caption{
+	background-color: #121212;
+	background-image: url(../IMAGES/bf-banner2.jpg);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 300px
+
+}
+.banner-lunch{
+	background-color: #121212;
+	background-image: url(../IMAGES/banner-lunch.jpg);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px
+}
+.lunch-banner2{
+	background-color: #121212;
+	background-image: url(../IMAGES/lunch-banner2.jpg);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 300px
+}
+.banner-dinner{
+	background-color: #121212;
+	background-image: url(../IMAGES/dinner-banner.jpg);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px
+}
+.set-menu{
+	background-color: #121212;
+	background-image: url(../IMAGES/setmenu-bg.png);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px
+}
+
+
+
+
+
+
+
+
+.footer{
+	background-color: #121212;
+	background-image: url(../IMAGES/footer.jpg);
+	background-position: center bottom;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 700px;}
+
+
